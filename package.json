@@ -1,0 +1,38 @@
+{
+  "name": "elasticsearch-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for Elasticsearch integration with Elastic Cloud",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "elasticsearch-mcp-server": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsx src/index.ts",
+    "clean": "rimraf build"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.12.0",
+    "@modelcontextprotocol/sdk": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "rimraf": "^5.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "elasticsearch",
+    "elastic-cloud",
+    "model-context-protocol",
+    "search"
+  ],
+  "author": "Nirmal",
+  "license": "MIT"
+}
