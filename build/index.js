@@ -7,10 +7,10 @@ import { Client } from '@elastic/elasticsearch';
 // Initialize Elasticsearch client with hardcoded configuration
 function createElasticsearchClient() {
     const config = {
-        node: 'http://44.199.121.209:9200',
+        node: 'http://44.199.121.209',
         auth: {
-            username: 'nawin',
-            password: 'dev@1234',
+            username: '',
+            password: '\',
         },
         tls: {
             rejectUnauthorized: false, // Skip certificate verification for development
