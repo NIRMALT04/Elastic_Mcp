@@ -25,7 +25,7 @@ const ELASTICSEARCH_CONFIG = {
   pingTimeout: 10000,
 };
 
-
+console.log('=== Initializing Elasticsearch MCP Server ===');
 
 // Create Elasticsearch client with hardcoded config
 const client = new Client(ELASTICSEARCH_CONFIG);
