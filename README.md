@@ -64,7 +64,7 @@ Add this to your Claude Desktop configuration:
   "mcpServers": {
     "elasticsearch": {
       "command": "node",
-      "args": ["C:\\Users\\Nirmal\\Desktop\\elasticsearch-mcp-server\\build\\index.js"],
+      "args": ["C:\\Users\path_to\elasticsearch-mcp-server\\build\\index.js"],
       "env": {
         "ELASTIC_NODE_URL": "https://your-org-elasticsearch.company.com:9200",
         "ELASTIC_API_KEY": "your-api-key-here",

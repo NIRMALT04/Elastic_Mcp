@@ -3,7 +3,7 @@ const { spawn } = require('child_process');
 
 // Start the MCP server
 const server = spawn('npm', ['run', 'dev'], {
-  cwd: 'C:\\Users\\Nirmal\\Desktop\\elasticsearch-mcp-server',
+  cwd: 'C:\\Users\\path_to\\elasticsearch-mcp-server',
   stdio: ['pipe', 'pipe', 'pipe']
 });
 
